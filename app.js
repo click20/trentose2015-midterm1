@@ -30,7 +30,7 @@ $(document).ready(function(){
         
         $(".sentences").append(tmpl.replace("SENTENCE",data[index++].phrase_en) ); 
         
-     if( $(".sencetences").text() == data[index].phrase_de){
+     if( $(".sentences").text() == data[index].phrase_de){
          score++;
      }  
         
